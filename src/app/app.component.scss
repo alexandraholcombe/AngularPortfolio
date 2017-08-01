@@ -1,0 +1,12 @@
+.container {
+  border: 1px solid black;
+  margin: 80px auto;
+}
+
+.col-md-9, .col-md-3 {
+  border: 1px solid red;
+}
+
+.col-md-9 {
+  padding-left: 10px;
+}
