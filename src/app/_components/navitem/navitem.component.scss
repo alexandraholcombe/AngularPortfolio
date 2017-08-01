@@ -2,5 +2,24 @@
 
 :host {
   text-transform: uppercase;
+  border-radius: 0 !important;
   @include sweep-to-right();
+  font-weight: 700;
+  text-align: right;
+  font-size: .75rem;
+  line-height: 1.9;
+  i {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    float: left;
+  }
 }
+
+// span {
+//   font-size: .75rem;
+//   font-weight: 700;
+//   float: right;
+//   cursor: pointer;
+//   vertical-align: middle;
+//   line-height: 1.7;
+// }
