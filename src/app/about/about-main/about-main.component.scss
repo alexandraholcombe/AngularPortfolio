@@ -1,12 +1,6 @@
 @import './../../../assets/styles/shared.scss';
 
 :host {
-  // @include outlet-styling();
-  // background-color: white !important;
-  // min-height: 400px;
-}
-
-.wrapper {
+  display: block;
   background-color: white;
-  width: 100%;
 }
