@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'shared-divider',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./divider.component.scss']
 })
 export class DividerComponent implements OnInit {
+  @Input() text;
 
   constructor() { }
 
