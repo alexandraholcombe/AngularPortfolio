@@ -1,2 +1,7 @@
 @import './../../../../node_modules/hover.css/scss/hover';
 @import './globalvars';
+
+@mixin outlet-styling {
+    // write the css here
+    background-color: white;
+}
