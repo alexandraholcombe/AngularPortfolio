@@ -1,0 +1,6 @@
+@import './../../../assets/styles/shared';
+
+:host {
+  text-transform: uppercase;
+  @include sweep-to-right();
+}
