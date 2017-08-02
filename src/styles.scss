@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:300,400,800');
 @import './assets/styles/globalvars';
 
 body {
@@ -9,18 +9,25 @@ body {
   font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
+h1, h2, h3 {
+  text-transform: uppercase;
+  color: $darkgray;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  text-transform: uppercase;
-  color: $darkgray;
   font-size: 32px;
 }
 
 h2 {
   font-weight: 300;
-  text-transform: uppercase;
   font-size: 1.4rem;
   margin-top: -5px;
   color: $medgray;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 1.2rem;
 }

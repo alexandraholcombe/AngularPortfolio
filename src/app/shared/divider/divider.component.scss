@@ -1,0 +1,32 @@
+@import './../../../assets/styles/globalvars';
+
+:host {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid $ltestgray;
+  position: relative;
+}
+
+h3 {
+  text-align: right;
+  padding-right: 40px;
+  padding-top: 30px;
+  // position: relative;
+  &::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height:6px;
+    position: absolute;
+    bottom: -3px;
+    right: 40px;
+    background-color:#687a8f;
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#687a8f, endColorstr=#f7882f);
+    background-image:-moz-linear-gradient(to left, #687a8f 0%, #f7882f 51%,#f7c331 100%);
+    background-image:linear-gradient(to left, #687a8f 0%, #f7882f 51%,#f7c331 100%);
+    background-image:-webkit-linear-gradient(to left, #687a8f 0%, #f7882f 51%,#f7c331 100%);
+    background-image:-o-linear-gradient(to left, #687a8f 0%, #f7882f 51%,#f7c331 100%);
+    background-image:-ms-linear-gradient(to left, #687a8f 0%, #f7882f 51%,#f7c331 100%);
+    background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(0%,#687a8f), color-stop(51%,#f7882f),color-stop(100%,#f7c331));
+  }
+}
