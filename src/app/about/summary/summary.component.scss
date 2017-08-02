@@ -1,5 +1,15 @@
+@import './../../../assets/styles/globalvars';
+
 :host {
   width: 100%;
   padding: 40px;
   display: block;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+.col-md-6 {
+  color: $medgray;
 }
