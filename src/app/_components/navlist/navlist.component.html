@@ -1,3 +1,3 @@
 <div class="list-group">
-  <app-navitem *ngFor="let item of navItems" class="btn list-group-item list-group-item-action" [navItem]="item"></app-navitem>
+  <app-navitem *ngFor="let item of navItems" class="btn list-group-item list-group-item-action" [navItem]="item" (click)="routeTo(item.route)"></app-navitem>
 </div>

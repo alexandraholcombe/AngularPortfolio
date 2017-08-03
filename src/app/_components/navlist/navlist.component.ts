@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { NavItem } from './../../_models/navitem.model';
 import { navItems } from './navlist.metadata';
 
@@ -9,9 +10,16 @@ import { navItems } from './navlist.metadata';
 })
 export class NavlistComponent implements OnInit {
   navItems = navItems;
-  constructor() { }
+
+  constructor(
+    private _router: Router,
+  ) { }
 
   ngOnInit() {
+  }
+
+  routeTo(route: string) {
+    this._router.navigate(['route']);
   }
 
 }
