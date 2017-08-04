@@ -1,1 +1,11 @@
 @import './../common';
+
+@import "./../../../../node_modules/bootstrap/scss/mixins/_grid-framework";
+@import "./../../../../node_modules/bootstrap/scss/mixins/_grid";
+@import "./../../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+@import "./../../../../node_modules/bootstrap/scss/_variables";
+
+:host {
+  display: block;
+  @include make-row();
+}
