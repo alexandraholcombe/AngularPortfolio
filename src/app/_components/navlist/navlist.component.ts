@@ -19,7 +19,6 @@ export class NavlistComponent implements OnInit {
   }
 
   routeTo(route: string) {
-    console.log(this._router.navigate([route]));
     this._router.navigate([route]);
   }
 

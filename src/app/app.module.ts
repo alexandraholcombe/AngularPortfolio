@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AboutModule } from './about/about.module';
 import { SharedModule } from './shared/shared.module';
+import { ProjectsModule } from './projects/projects.module';
 
 //Routing
 import { AppRouting } from './app.routing';
@@ -23,6 +24,7 @@ import { NavitemComponent } from './_components/navitem/navitem.component';
     BrowserModule,
     AboutModule,
     SharedModule,
+    ProjectsModule,
     AppRouting
   ],
   providers: [],

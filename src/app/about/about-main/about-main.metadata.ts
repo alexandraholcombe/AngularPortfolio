@@ -1,4 +1,6 @@
 export const dividerTitles = [
   "About Me",
-  "Skills"
+  "Skills",
+  "Experience",
+  "Education"
 ]
