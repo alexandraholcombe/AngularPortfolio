@@ -1,4 +1,4 @@
-export const dividerTitles = [
+export const goalsContent = [
   "About Me",
   "Skills",
   "Goals",
