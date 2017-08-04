@@ -5,3 +5,10 @@
   background-color: white;
   // padding-bottom: 50px;
 }
+
+shared-divider {
+    margin-top: -20px;
+    &:first-of-type {
+      margin-top: 0;
+    }
+}

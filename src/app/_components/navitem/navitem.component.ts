@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {NavItem} from './../../_models/navitem.model';
+import { NavItem } from './../../_models/navitem.model';
 
 @Component({
   selector: 'app-navitem',

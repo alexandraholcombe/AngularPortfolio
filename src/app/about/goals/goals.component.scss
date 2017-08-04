@@ -8,4 +8,7 @@
 :host {
   display: block;
   @include make-row();
+  margin: 0 !important;
+  padding-top: 60px;
+  margin-bottom: -40px;
 }
