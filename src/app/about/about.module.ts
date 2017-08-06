@@ -9,6 +9,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { GoalsComponent } from './goals/goals.component';
 import { CareerDevelopmentComponent } from './career-development/career-development.component';
 import { GoalTileComponent } from './goal-tile/goal-tile.component';
+import { CareerdevTileComponent } from './careerdev-tile/careerdev-tile.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,7 @@ import { GoalTileComponent } from './goal-tile/goal-tile.component';
     SummaryComponent, 
     SkillsComponent, 
     GoalsComponent, 
-    CareerDevelopmentComponent, GoalTileComponent
+    CareerDevelopmentComponent, GoalTileComponent, CareerdevTileComponent
   ]
 })
 export class AboutModule { }
